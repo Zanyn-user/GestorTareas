@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
- */
+
 package ec.edu.espoch.ejerciciotareas.vista;
 
 /**
@@ -92,7 +89,7 @@ public class ListarTareasCompletadas extends javax.swing.JFrame {
     /**
      * @param args the command line arguments
      */
-   
+  
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton ButtonRegresar;

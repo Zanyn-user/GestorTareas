@@ -41,7 +41,7 @@ public class Tarea {
         this.descripcion = descripcion;
     }
 
-    public boolean isCompletada() {
+    public boolean getCompletada() {
         return completada;
     }
 

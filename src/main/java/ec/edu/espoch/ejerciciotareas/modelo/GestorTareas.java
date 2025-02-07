@@ -1,37 +1,49 @@
-
 package ec.edu.espoch.ejerciciotareas.modelo;
 
-public class GestorTareas extends Tarea{
+import ec.edu.espoch.ejerciciotareas.controlador.Controlador;
 
-public GestorTareas(int id, String titulo, String descripcion, boolean completada) {
-        super(id, titulo, descripcion, completada);
+public class GestorTareas {
+
+    private Controlador controlador;
+    Tarea[] tareas = new Tarea[4];
+    Tarea[] tareasAux= new Tarea[4];
+
+    public GestorTareas(Controlador controlador) {
+        this.controlador = controlador;
     }
 
-    
-    
-    public String agregarTarea (Tarea tarea){
-        String [] Tarea = new String[3];
-        Tarea[0] = Integer.toString(tarea.getId()) ;
-        Tarea [1] = tarea.getTitulo();
-        Tarea [2] = tarea.getDescripcion();
-        return "";
-    }
-    
-    public String listarTareasPendientes (){
+    public void agregarTarea(Tarea tarea) {
         
-        return "";
-    }
-    
-    public String listarTareasCompletadas(){
-        
-        return "";
-    }
-    
-    public String marcarCompletada(){
-        
-        return "";
+        tareas[0].setId(tarea.getId());
+        tareas[0].setTitulo(tarea.getTitulo());
+        tareas[0].setCompletada(tarea.getCompletada());
         
     }
-    
+
+    public Tarea[] listarTareasPendientes() {
+
+        for(int i=0;i>3;i++){
+            if(!tareas[i].getCompletada()){
+                tareasAux[i]=tareas[i];
+            }
+        }
+        
+        return tareasAux;
+    }
+
+    public  Tarea[] listarTareasCompletadas() {
+        for(int i=0;i>3;i++){
+            if(tareas[i].getCompletada()){
+                tareasAux[i]=tareas[i];
+            }
+        }
+        return tareasAux;
+    }
+
+    public String marcarCompletada() {
+
+        return "";
+
+    }
+
 }
-

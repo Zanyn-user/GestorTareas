@@ -4,12 +4,15 @@ ec\edu\espoch\ejerciciotareas\vista\AgregarTarea$2.class
 ec\edu\espoch\ejerciciotareas\modelo\GestorTareas.class
 ec\edu\espoch\ejerciciotareas\vista\Vista.class
 ec\edu\espoch\ejerciciotareas\vista\Vista$1.class
+ec\edu\espoch\ejerciciotareas\controlador\Controlador.class
 ec\edu\espoch\ejerciciotareas\EjercicioTareas.class
+ec\edu\espoch\ejerciciotareas\vista\AgregarTarea$4.class
 ec\edu\espoch\ejerciciotareas\modelo\Tarea.class
 ec\edu\espoch\ejerciciotareas\vista\Vista$4.class
 ec\edu\espoch\ejerciciotareas\vista\Vista$2.class
 ec\edu\espoch\ejerciciotareas\vista\ListarTareasCompletadas$1.class
 ec\edu\espoch\ejerciciotareas\vista\ListarTareasPendientes$1.class
+ec\edu\espoch\ejerciciotareas\vista\AgregarTarea$3.class
 ec\edu\espoch\ejerciciotareas\vista\AgregarTarea.class
 ec\edu\espoch\ejerciciotareas\vista\ListarTareasPendientes.class
 ec\edu\espoch\ejerciciotareas\vista\Vista$3.class
